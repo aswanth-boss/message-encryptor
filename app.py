@@ -13,7 +13,7 @@ tab1, tab2 = st.tabs(["Encrypt", "Decrypt"])
 with tab1:
     st.subheader("Encrypt your message")
     
-    # This is a text input box (like the HTML form you are learning)
+    # This is a text input box
     user_input = st.text_input("Type your message here...", key="enc_input")
     
     # When the button is clicked, this runs
@@ -50,3 +50,5 @@ with tab2:
                 st.error("Invalid code! Make sure you pasted the exact characters.")
         else:
             st.warning("Please paste the code first.")
+
+st.caption("Built by Aswanth 9c kv nad aluva AKA nevergiveup201210")
